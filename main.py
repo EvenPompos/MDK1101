@@ -38,8 +38,8 @@ def handle_login():
     user = myCursor.fetchone()
     if user:
         # Успешный вход
-        sup_ui.Name_profile_2.setText(user[1])  # Установить имя в профиле
-        sup_ui.Email_profile_2.setText(user[2])  # Установить email в профиле
+        sup_ui.Name_profile_2.setText(user[0])  # Установить имя в профиле
+        sup_ui.Email_profile_2.setText(user[1])  # Установить email в профиле
         sup_win.show()
         acc_win.close()
     else:
