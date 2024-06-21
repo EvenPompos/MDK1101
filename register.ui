@@ -6,104 +6,158 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>644</width>
-    <height>413</height>
+    <width>800</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="Registr">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>20</y>
-      <width>141</width>
-      <height>21</height>
+      <x>300</x>
+      <y>10</y>
+      <width>200</width>
+      <height>30</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>20</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
     </property>
     <property name="text">
      <string>Регистрация</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Name_reg">
+   <widget class="QLabel" name="NickName">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>70</y>
-      <width>71</width>
-      <height>16</height>
+      <x>450</x>
+      <y>50</y>
+      <width>300</width>
+      <height>30</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>20</pointsize>
+     </font>
     </property>
     <property name="text">
-     <string>Name</string>
+     <string>NickName</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Name_vod_reg">
+   <widget class="QLineEdit" name="NickName_reg">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>450</x>
       <y>100</y>
-      <width>113</width>
-      <height>20</height>
+      <width>300</width>
+      <height>30</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
    </widget>
-   <widget class="QLabel" name="Email_reg">
+   <widget class="QLabel" name="Email">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>140</y>
-      <width>71</width>
-      <height>16</height>
+      <x>450</x>
+      <y>150</y>
+      <width>300</width>
+      <height>30</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>20</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Email</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Email_vod_reg">
+   <widget class="QLineEdit" name="Email_reg">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>180</y>
-      <width>113</width>
-      <height>20</height>
+      <x>450</x>
+      <y>200</y>
+      <width>300</width>
+      <height>30</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
    </widget>
-   <widget class="QLabel" name="Pass_reg">
+   <widget class="QLabel" name="Pass">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>230</y>
-      <width>71</width>
-      <height>21</height>
+      <x>450</x>
+      <y>250</y>
+      <width>300</width>
+      <height>30</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>20</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Password</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="Pass_vod">
+   <widget class="QLineEdit" name="Pass_reg">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>260</y>
-      <width>113</width>
-      <height>20</height>
+      <x>450</x>
+      <y>300</y>
+      <width>300</width>
+      <height>30</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
     </property>
    </widget>
    <widget class="QPushButton" name="Zaregistr">
     <property name="geometry">
      <rect>
-      <x>124</x>
-      <y>312</y>
-      <width>161</width>
-      <height>21</height>
+      <x>100</x>
+      <y>400</y>
+      <width>250</width>
+      <height>35</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>20</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Зарегистрироваться</string>
@@ -112,14 +166,123 @@
    <widget class="QPushButton" name="Vyhod">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>312</y>
-      <width>151</width>
-      <height>21</height>
+      <x>450</x>
+      <y>400</y>
+      <width>200</width>
+      <height>35</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>20</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Выход</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Name">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>50</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Имя</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Surname">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>150</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Фамилия</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Ot_Name">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>250</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Отчество</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Name_reg">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>100</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Surname_reg">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>200</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Ot_Name_reg">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>300</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
     </property>
    </widget>
   </widget>
@@ -128,7 +291,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>644</width>
+     <width>800</width>
      <height>21</height>
     </rect>
    </property>

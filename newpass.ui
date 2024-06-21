@@ -14,15 +14,15 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">selection-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 0, 0, 255), stop:0.33 rgba(0, 0, 0, 255), stop:0.34 rgba(255, 30, 30, 255), stop:0.66 rgba(255, 0, 0, 255), stop:0.67 rgba(255, 255, 0, 255), stop:1 rgba(255, 255, 0, 255));</string>
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>200</x>
       <y>10</y>
-      <width>350</width>
+      <width>400</width>
       <height>35</height>
      </rect>
     </property>
@@ -33,29 +33,10 @@
      </font>
     </property>
     <property name="text">
-     <string>Начальная страница</string>
+     <string>Восстановление пароля</string>
     </property>
    </widget>
-   <widget class="QLabel" name="Email">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>50</y>
-      <width>300</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial Narrow</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Email</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="Email_Vod">
+   <widget class="QLineEdit" name="NickName_pass">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -71,26 +52,7 @@
      </font>
     </property>
    </widget>
-   <widget class="QLabel" name="Password">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>150</y>
-      <width>300</width>
-      <height>30</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial Narrow</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Password</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="Pass_vod">
+   <widget class="QLineEdit" name="Email_pass">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -106,49 +68,119 @@
      </font>
     </property>
    </widget>
-   <widget class="QPushButton" name="Vhod">
+   <widget class="QLineEdit" name="Repeat_NewPass_pass">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>300</y>
-      <width>200</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial Narrow</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Вход</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Register">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>300</y>
-      <width>200</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial Narrow</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Регистрация</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Zabl_pass">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
+      <x>400</x>
       <y>200</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="NewPass_pass">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>100</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="NickName">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>50</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>NickName</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Email_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>150</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Newpass">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>50</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>New Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Repnewpass">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>150</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Repeat  new password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Vyhod">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>300</y>
       <width>200</width>
       <height>35</height>
      </rect>
@@ -159,11 +191,27 @@
       <pointsize>20</pointsize>
      </font>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(170, 0, 0);</string>
+    <property name="text">
+     <string>Выход</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OK">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>300</y>
+      <width>100</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>20</pointsize>
+     </font>
     </property>
     <property name="text">
-     <string>Забыл(а) пароль</string>
+     <string>Ок</string>
     </property>
    </widget>
   </widget>
